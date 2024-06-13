@@ -21,10 +21,10 @@ export default defineNuxtConfig({
     'nuxt-multi-tenancy'
   ],
   multiTenancy: {
-    rootDomains: ["unpam.local", "unpampy.vercel.app"],
+    rootDomains: ["unpam.local", "radjartha.my.id"],
     sites: ["news"],
     customDomains: {
-      "news.unpampy.vercel.app": "news",
+      "news.radjartha.my.id": "news",
       "news.unpam.local": "news",
     },
   },
