@@ -1,6 +1,6 @@
 <template>
     <div>
-      <NavBar /> 
+        <Navbar />
       <slot />
       <div class="pt-24">
       <Footer />
@@ -9,6 +9,6 @@
   </template>
   
   <script setup>
-    import Footer from '../components/Footer.vue'; 
-  import NavBar from '../components/NavBar.vue'; 
+    import Footer from '~/components/Footer.vue'; 
+  import Navbar from '~/components/Navbar.vue'; 
   </script>
